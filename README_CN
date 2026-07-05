@@ -3,9 +3,10 @@
 #### —— 发现与沉淀：一套可自我进化的 agent 范式
 
 > **关键词**：AI Agent · 自我进化 · 判断力 / 品味 · 维度 · 强化学习类比（SFT / RL）· eval / critic · skill / workflow / hook · 知识库 · 多智能体对抗
-能直接复用的资产。
 
-<img width="600" height="600" alt="hero_engine" src="https://gist.github.com/user-attachments/assets/3b5e34bc-6e17-441f-a117-d5e97108adfb" />
+> **一句话**：会进化的系统赢在哪？不是产出更多，而是不断把摩擦炼成判断力，再沉淀成下一轮能直接复用的资产。
+
+![发现与沉淀：自我进化的两冲程引擎](images/hero_engine.png)
 
 ## 引言：瓶颈换了位置
 
@@ -167,7 +168,9 @@
 ---
 
 ## 七、闭环全图
-<img width="600" height="600" alt="loop_overview" src="https://gist.github.com/user-attachments/assets/e029dad0-b59e-4c73-8961-533457544afd" />
+
+![闭环全图：冷启动播种 →（运转 → 摩擦 → 发现 → 沉淀 → 调节）循环；沉淀向下退役为 hook/剪枝，向上经载体上浮回流范式回路](images/loop_overview.png)
+
 ---
 
 ## 八、三个实例：把引擎拆开看
@@ -176,7 +179,7 @@
 
 ### 实例一 · 语料质检：一台自再生的 actor-critic
 
-<img width="600" height="600" alt="ex1_actor_critic" src="https://gist.github.com/user-attachments/assets/4e4d63dd-a90c-471c-98cd-46ac7533d978" />
+![语料质检的 actor-critic 闭环：分歧驱动挖规则、补规则](images/ex1_actor_critic.png)
 
 任务是意图槽值的语料生成与质检，难点在于规则边界天然模糊，没有现成、清晰的"什么算对"。
 
@@ -196,8 +199,7 @@
 
 ### 实例二 · 三层知识库：维度就是边界
 
-<img width="600" height="600" alt="ex2_knowledge_base" src="https://gist.github.com/user-attachments/assets/36564679-5dfb-4da2-a326-309c247bd8c7" />
-
+![三层知识库：原始材料→蒸馏理解→下游任务，下游反哺、维度即边界](images/ex2_knowledge_base.png)
 
 这个项目分三层：底层是原始材料（文档、代码、实践留痕），中层是从材料 + 人的知识 + 实践里蒸馏出的业务理解，上层是各种下游实践——下游靠知识库做得更快更准，又把新发现反哺回库。
 
@@ -225,7 +227,7 @@
 
 ### 实例三 · 一个论文对抗框架：把整台引擎写成 skill
 
-<img width="600" height="600" alt="ex3_paper_debate" src="https://gist.github.com/user-attachments/assets/8bec43a9-d957-4169-a451-fb40221b99f2" />
+![论文对抗框架：审稿人×4→作者→裁判→元裁判，论文/规则/skill 三层嵌套闭环](images/ex3_paper_debate.png)
 
 前两个是"业务"，这一个是"工具"：一个对抗式多智能体论文迭代框架。它的价值在于把整套范式实现成了可运行的代码，范式里每个抽象部件，在这里都有一个跑得起来的对应实体。逐件对上：
 
